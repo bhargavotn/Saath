@@ -1,0 +1,33 @@
+.DS_Store
+
+# Dependencies and generated output
+app/node_modules/
+app/dist/
+app/.next/
+app/.vinext/
+app/.wrangler/
+app/.sites-runtime/
+app/.tmp-audit/
+app/*.tsbuildinfo
+app/next-env.d.ts
+
+# Local secrets — never upload
+app/.env
+app/.env.*
+app/.dev.vars
+app/.dev.vars*
+app/*.pem
+!.env.example
+!app/.env.example
+
+# Original download packs — source is already in app/ and docs/
+archives/*.zip
+.git-app-backup/
+
+# Python & Django backend
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+*.py[cod]
+*$py.class
+

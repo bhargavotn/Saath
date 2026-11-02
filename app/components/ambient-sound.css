@@ -1,0 +1,22 @@
+.saath-sound{position:fixed;right:22px;bottom:22px;z-index:80;color:#293440;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:13px;line-height:1.55;max-width:calc(100vw - 32px)}
+.saath-sound button,.saath-sound select,.saath-sound input{font:inherit}
+.saath-sound-toggle{display:flex;align-items:center;gap:9px;padding:12px 17px;border:1px solid #d5dce4;border-radius:100px;background:#ffffff;box-shadow:0 5px 24px #29344012;cursor:pointer;color:#293440}
+.saath-sound-toggle.is-playing{background:#526b86;color:#fff;border-color:#526b86}
+.saath-sound-panel{width:320px;max-width:calc(100vw - 32px);box-sizing:border-box;background:#ffffff;padding:22px;border:1px solid #d5dce4;border-radius:20px;margin-bottom:12px;box-shadow:0 12px 48px #29344020;max-height:calc(100dvh - 120px);overflow:auto}
+.saath-sound-heading{display:flex;gap:10px;justify-content:space-between;align-items:flex-start}
+.saath-sound-eyebrow{font-size:9px;letter-spacing:2px;color:#5c6b78}
+.saath-sound h2{font-family:Georgia,serif;font-size:23px;font-weight:400;margin:5px 0 12px;line-height:1.2;color:#293440}
+.saath-sound p{font-size:12px;margin:0 0 15px;color:#5c6b78}
+.saath-sound-icon{border:0;background:transparent;color:#293440;cursor:pointer;padding:2px}
+.saath-sound-label{display:block;margin-bottom:6px;font-size:12px;color:#293440}
+.saath-sound select{width:100%;border:1px solid #d5dce4;border-radius:9px;background:#ffffff;padding:10px;color:#293440;margin-bottom:12px}
+.saath-sound-volume{display:flex;align-items:center;gap:7px;font-size:12px;margin-top:5px}
+.saath-sound-volume output{margin-left:auto;color:#5c6b78}
+.saath-sound input[type=range]{width:100%;accent-color:#526b86;margin:10px 0 16px;cursor:pointer}
+.saath-sound-play{display:flex;gap:8px;align-items:center;justify-content:center;width:100%;border:0;border-radius:10px;padding:11px;background:#526b86;color:#ffffff;cursor:pointer;margin-bottom:12px}
+.saath-sound-play.saath-sound-mute{background:transparent;color:#293440;border:1px solid #d5dce4}
+.saath-sound button:disabled,.saath-sound select:disabled{opacity:.6;cursor:wait}
+.saath-sound p.saath-sound-note{font-size:10px;line-height:1.55;margin-bottom:9px}
+.saath-sound p.saath-sound-error{color:#8b4a3a;margin:9px 0 0}
+.saath-sound :focus-visible{outline:2px solid #526b86;outline-offset:4px}
+@media(max-width:600px){.saath-sound{right:16px;bottom:16px}.saath-sound-toggle{padding:10px 14px}.saath-sound-panel{padding:18px}}

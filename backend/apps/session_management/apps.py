@@ -1,0 +1,7 @@
+from django.apps import AppConfig
+
+class SessionManagementConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'apps.session_management'
+    verbose_name = 'Sessions & Saved Connections'
+

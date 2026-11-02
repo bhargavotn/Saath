@@ -1,0 +1,20 @@
+[
+  {
+    "file": "public/assets/saath-circles.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "d97fef779a4906fb2d1c3282df3c5aa66a191ecc183a923b4862c4d0ca7d588f"
+  },
+  {
+    "file": "public/assets/saath-garden-hero.png",
+    "width": 2048,
+    "height": 768,
+    "sha256": "480212b6f9404a7d52f0f7887251c864d63d523f2492dbe142b4b0c21849e8db"
+  },
+  {
+    "file": "public/assets/saath-rehearsal.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "f936882dcb81f1a1d9528f734e99532888d08ebbc9b53c97bb5ac820dfc8aec6"
+  }
+]
